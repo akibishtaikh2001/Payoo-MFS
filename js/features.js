@@ -14,6 +14,6 @@ document.getElementById('btn_show_cash_out').addEventListener('click', function 
 document.getElementById('btn_show_add_money').addEventListener('click', function () {
 
     document.getElementById('add_money_form').classList.remove('hidden');
-    
+
     document.getElementById('cash_out_form').classList.add('hidden');
 })
