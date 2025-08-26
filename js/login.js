@@ -36,15 +36,15 @@ document.getElementById('button_login').addEventListener('click', function (even
     const phoneNumber = document.getElementById('phone_number').value;
     const pinNumber = document.getElementById('pin_number').value;
     console.log(phoneNumber, pinNumber);
-    
+
     // bad way to validate
-    if(phoneNumber === '5' && pinNumber === '1234'){
+    if (phoneNumber === '5' && pinNumber === '1234') {
         console.log('you are logged in');
         window.location.href = '/home.html';
-        
+
     }
-    else{
-        console.log('wrong phone number or pin.');
-        
+    else {
+        alert('wrong phone number or pin.');
+
     }
 })
